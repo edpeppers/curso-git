@@ -1,0 +1,53 @@
+Curso Git
+
+Aula 1
+
+Conceitos Básicos
+
+Professor Aquino
+
+https://www.youtube.com/watch?v=udw3J335ZHo
+
+---
+
+Baixar terminal Git (git-scm.com)
+
+Criar uma pasta onde seus arquivos serão criados e editados (Repositório Local)
+
+Abrir o terminal a partir dessa pasta.
+
+No terminal digitar:
+
+	git init
+	- ele irá Iniciar o seu respositório.
+	- ao iniciário o repositório ele é identificado como a Master (principal);
+	- uma pasta ".git" oculta é criada. Essa pasta é onde seus arquivos são guardados quando adicionados antes de serem commitados.
+	
+Utilize o comando Status para saber o estado de seu Repositório Local:
+
+	git status
+	- exibe os arquivos criados e editados;
+	- exibe se os arquivos estão editados e ainda não foram adicionados no repositório local antes de ser commitado.
+	- exibe se os arquivos já estão salvos/adicionados;
+	
+Utilize o comando Add para adicionar os arquivos criados e editados;
+
+	git add <nomeDoArquivo>
+	- adiciona arquivo específico;
+	
+	git add -A
+	- adiciona todos os arquivos;
+	
+Utilize o comando Commit para cometer/enviar as alterações feitas por você, com comentário breve sobre o que foi realizado;
+
+	git commit -m "comentário breve sobre a edição"
+	- todo commit registra nome, data e hora da edição enviado;
+	- serve, além do mais, para revisar as ações realizadas e saber o que foi criado/editado;
+	- salva todas as suas mudanças/criações;
+	
+Utilize os comandos Config user.email e Config user.name para criar/configurar seu E-mail e Nome;
+
+	git config user.email <email>
+	git config user.name <name>
+	- todos verão seu nome e email nas edições enviadas para o repositório principal (na web, por exemplo).
+	

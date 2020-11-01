@@ -1,0 +1,29 @@
+Curso Git
+
+Aula 1
+
+Conceitos Básicos
+
+Professor Aquino
+
+https://www.youtube.com/watch?v=udw3J335ZHo
+
+---
+
+Controle de versões
+
+Cada mudança é gerado um código para controle de versionamento para saber quando e quem alterou.
+
+Os trabalhos podem ser mesclados.
+Os trabalhos podem ser restaurados.
+
+Centralizado
+- Um Repositório principal onde vários usuários usam e editam.
+- Há risco de erros e perdas ao utilizar o Repositório principal.
+
+Distribuído
+- Cada usuário que trabalha no projeto cria uma cópia do Repositório Principal, criando um Repositório Local;
+- Há independência de trabalho;
+- Cada edição é feita por cada usuário em suas versões locais;
+- Existe o controle de versão;
+- Após cada usuário finalizar suas criações/edições podem salvar e mesclar com o Repositório Principal (master);
