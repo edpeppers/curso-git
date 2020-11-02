@@ -52,3 +52,5 @@ I) Utilize apenas o comando BRANCH para identificar quantos Ramos existem no pro
 
 	git branch
 	- é exibido todos os branches criados e ativos;
+	
+J) Para resolver conflitos após realizar um merge, os arquivos exibem detalhes como <<<<HEAD que identifica onde está o início do conflito no arquivo do Ramo atual (HEAD) e ===== onde exibe o fim do local conflito. Escolha qual manterá, edite, adicione e faça o commit.
