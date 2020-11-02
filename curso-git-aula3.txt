@@ -43,7 +43,7 @@ G) Utilize o comando MERGE para mesclar/fundir os arquivos de um Ramo em outro. 
 	git merge <RamoDoQualQuerReceberAsAlteracoes>
 	- dentro do Ramo que receberá as novas informações utilize o comando MERGE e o nome do Ramo do qual quer receber as informações.
 
-H) Utilize o comando -d para deletar a Branch selecionada:
+H1) Utilize o comando -d para deletar a Branch selecionada:
 
 	git branch -d <NomeDaBranchASerDeletada>
 	- deleta o Ramo escolhido;
