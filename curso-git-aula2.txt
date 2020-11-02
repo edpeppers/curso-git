@@ -60,7 +60,7 @@ Criar um repositório remoto na web/nuvem, no site do GitHub.com
 
 	ex: https://github.com/edpeppers/curso-git.git
 	
-No terminal utilize o comando Remote Add para adicionar o repositório remoto;
+No terminal utilize o comando Remote Add para criar o repositório remoto;
 
 	git remote add <apelido> <endereço do repositório principal na web>
 	- geralmente em <apelido> se usa a palavra "origin" como padrão;
