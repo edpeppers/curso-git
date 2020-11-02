@@ -1,12 +1,12 @@
 Curso Git
 
-Aula 1
+Aula 2
 
-Conceitos Básicos
+Iniciar e Empurrar Repositório
 
 Professor Aquino
 
-https://www.youtube.com/watch?v=udw3J335ZHo
+https://www.youtube.com/watch?v=ZsBmgNQVziM
 
 ---
 
@@ -30,7 +30,7 @@ Utilize o comando Status para saber o estado de seu Repositório Local:
 	- exibe se os arquivos estão editados e ainda não foram adicionados no repositório local antes de ser commitado.
 	- exibe se os arquivos já estão salvos/adicionados;
 	
-Utilize o comando Add para adicionar os arquivos criados e editados;
+Utilize o comando Add para adicionar os arquivos criados e editados:
 
 	git add <nomeDoArquivo>
 	- adiciona arquivo específico;
@@ -38,16 +38,41 @@ Utilize o comando Add para adicionar os arquivos criados e editados;
 	git add -A
 	- adiciona todos os arquivos;
 	
-Utilize o comando Commit para cometer/enviar as alterações feitas por você, com comentário breve sobre o que foi realizado;
+Utilize o comando Commit para cometer/enviar as alterações feitas por você, com comentário breve sobre o que foi realizado:
 
 	git commit -m "comentário breve sobre a edição"
 	- todo commit registra nome, data e hora da edição enviado;
 	- serve, além do mais, para revisar as ações realizadas e saber o que foi criado/editado;
 	- salva todas as suas mudanças/criações;
 	
-Utilize os comandos Config user.email e Config user.name para criar/configurar seu E-mail e Nome;
+Utilize os comandos Config user.email e Config user.name para criar/configurar seu E-mail e Nome:
 
-	git config user.email <email>
-	git config user.name <name>
+	git config user.email "<email>"
+	git config user.name "<name>"
 	- todos verão seu nome e email nas edições enviadas para o repositório principal (na web, por exemplo).
 	
+Utilize o comando LOG para exibir os registros de commits realizados:
+
+	git log
+	- todas os commits são exibidos com nome do responsável, data, hora e mensagem do commit;
+	
+Criar um repositório remoto na web/nuvem, no site do GitHub.com
+
+	ex: https://github.com/edpeppers/curso-git.git
+	
+No terminal utilize o comando Remote Add para adicionar o repositório remoto;
+
+	git remote add <apelido> <endereço do repositório principal na web>
+	- geralmente em <apelido> se usa a palavra "origin" como padrão;
+	
+	git remote -v
+	- exibe a versão do repositório remoto;
+	
+Utilize o comando PUSH para enviar/empurrar os commits realizados na versão local para o repositório remoto/principal:
+
+	git push <Repositório Remoto> <Repositório Local>
+	- ex: git push origin master
+	- Lembre-se que a master, nesse caso, é o repositório local. Poderia ser uma Branch;
+	- na aula do professor Aquino foi utilizado o comando: git push -u
+	- é solicitado o login e senha do repositório remoto para confirmar a ação;
+
