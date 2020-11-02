@@ -35,4 +35,21 @@ F) Utilize o comando DIFF mais os sete primeiros caracteres da hash do commit pa
 	- no log você encontrará todos os commits realizados e seus respectivos hashes;
 	- ex: commit f84d5b0b5d9fb9a249252a2f97d3b4592e0b2002 || os 7 primeiros caracteres do hash = f84deb0
 	
-G) 
+G) Utilize o comando MERGE para mesclar/fundir os arquivos de um Ramo em outro. Para isso é necessário entrar no Ramo no qual quer ser mesclado.
+
+	git checkout <RamoASerMesclado>
+	- entrar no Ramo que receberá as informações de outro Ramo.
+	
+	git merge <RamoDoQualQuerReceberAsAlteracoes>
+	- dentro do Ramo que receberá as novas informações utilize o comando MERGE e o nome do Ramo do qual quer receber as informações.
+
+H) Utilize o comando -d para deletar a Branch selecionada:
+
+	git branch -d <NomeDaBranchASerDeletada>
+	- deleta o Ramo escolhido;
+	
+I) Utilize apenas o comando BRANCH para identificar quantos Ramos existem no projeto:
+
+	git branch
+	- é exibido todos os branches criados e ativos;
+	
