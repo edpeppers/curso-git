@@ -10,20 +10,29 @@ https://www.youtube.com/watch?v=cUAmhmbFZd4
 
 ---
 
-Utilize comando BRANCH para criar um novo ramo:
+A) Utilize comando BRANCH para criar um novo ramo:
 
 	git branch <nome-novo-ramo>
 	- um novo ramo é criado;
 	- de preferência o nome do novo ramo deve ser unido. Ex: novo-ramo
 	- após criar o novo ramo você ainda permanece no ramo anterior. Verificar com comando git status.
 	
-Utilize o comando CHECKOUT para mudar de ramo:
+B) Utilize o comando CHECKOUT para mudar de ramo:
 
 	git checkout <nome-novo-ramo>
 	- a partir disso você se encontra no novo ramo;
 	
-Toda e qualquer alteração que é feita em um Ramo não altera o arquivo do outro Ramo.
+C) Toda e qualquer alteração que é feita em um Ramo não altera o arquivo do outro Ramo.
 
-O Add adiciona sua alteração no arquivo/projeto.
+D) O Add adiciona sua alteração no arquivo/projeto.
 
-O Commit é o Registro da sua alteração.
+E) O Commit é o Registro da sua alteração.
+
+F) Utilize o comando DIFF mais os sete primeiros caracteres da hash do commit para verificar as alterações pelo terminal.
+
+	git diff <SetePrimeirosCaracteresDoHashDoCommit>
+	- primeiro verifique o log;
+	- no log você encontrará todos os commits realizados e seus respectivos hashes;
+	- ex: commit f84d5b0b5d9fb9a249252a2f97d3b4592e0b2002 || os 7 primeiros caracteres do hash = f84deb0
+	
+G) 
