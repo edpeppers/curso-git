@@ -1,0 +1,29 @@
+Curso Git
+
+Aula 3
+
+Criar, Mesclar e Excluir Ramos
+
+Professor Aquino
+
+https://www.youtube.com/watch?v=cUAmhmbFZd4
+
+---
+
+Utilize comando BRANCH para criar um novo ramo:
+
+	git branch <nome-novo-ramo>
+	- um novo ramo é criado;
+	- de preferência o nome do novo ramo deve ser unido. Ex: novo-ramo
+	- após criar o novo ramo você ainda permanece no ramo anterior. Verificar com comando git status.
+	
+Utilize o comando CHECKOUT para mudar de ramo:
+
+	git checkout <nome-novo-ramo>
+	- a partir disso você se encontra no novo ramo;
+	
+Toda e qualquer alteração que é feita em um Ramo não altera o arquivo do outro Ramo.
+
+O Add adiciona sua alteração no arquivo/projeto.
+
+O Commit é o Registro da sua alteração.
