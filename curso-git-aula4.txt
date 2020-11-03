@@ -1,0 +1,34 @@
+Curso Git
+
+Aula 4
+
+Descartar e Esconder Alterações
+
+Professor Aquino
+
+https://www.youtube.com/watch?v=XhZeoSlzaa8
+
+---
+
+A) Utilize o comando CHECKOUT -- para descartar alterações nos arquivos:
+
+	git checkout -- <nome-do-arquivo>
+	- a alteração feita no arquivo será descartada;
+	
+B) Utilize o comando STASH para esconder alterações num arquivo recem editado:
+
+	git stash
+	- arquivo editado, antes de ser adicionado, volta para a versão anterior, escondendo a nova alteração;
+	
+	git stash list
+	- lista as edições/alterações escondidas. Ex: stash@{0}, stash@{1}, etc.
+	
+	git stash apply stash@{0}
+	- reaplica a alteração (que havia sido escondida no stash@{0}) na versão do documento;
+	
+C) Utilize o comando STASH DROP para deletar uma alteração armazenada:
+
+	git stash drop stash@{numero-do-stash-a-ser-deletado}
+	- o arquivo stash que escondia a alteraçao é deletado.
+	
+D) 
