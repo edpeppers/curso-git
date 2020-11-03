@@ -30,5 +30,3 @@ C) Utilize o comando STASH DROP para deletar uma alteração armazenada:
 
 	git stash drop stash@{numero-do-stash-a-ser-deletado}
 	- o arquivo stash que escondia a alteraçao é deletado.
-	
-D) 
